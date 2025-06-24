@@ -22,7 +22,7 @@ function Dashboard() {
   const chartRef = useRef(null);
   const [chartInstance, setChartInstance] = useState(null);
 
-  const conversionRate = 300; // Approximate 1 USD = 300 LKR as of June 2025
+  const conversionRate = 1; // Approximate 1 USD = 300 LKR as of June 2025
 
   useEffect(() => {
     const token = localStorage.getItem('token');
